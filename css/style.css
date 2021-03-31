@@ -1,0 +1,288 @@
+img{
+	max-width: 100%;
+}
+
+.mir-head a.navbar-brand {
+	font-size: 26px;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: normal;
+	line-height: inherit;
+}
+.mir-head .navbar-brand span {
+	font-size: 24px;
+	background: #0d6efd;
+	padding: 9px 14px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.sld-section {
+	background: url(../img/mbr-10.jpg) no-repeat center center;
+	padding: 130px 0;
+	position: relative;
+	z-index: 1;
+	background-position: center;
+}
+.sld-section::after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+.sld-caption h3 {
+	font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.sld-caption p{
+    color: #fff;
+}
+.sld-caption {
+	background: #0000002b;
+	padding: 50px 100px;
+	border-radius: 116px;
+	border: 5px #0D6EFD;
+	border-style: none solid double ;
+}
+.sld-caption .form-control{
+	font-size: 15px;
+	padding: 14px;
+}
+
+.sld-caption .btn{
+	padding: 10px;
+	background: #0D6EFD;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* About Section */
+
+.about-section {
+	background: #F8F9FF;
+}
+.about-text-left{
+	margin-top: 150px;
+}
+
+.about-text-left .lead{
+	font-size: 1.2rem;
+	line-height: 1.4;
+}
+
+/* Featured Section */
+.featured-item{
+	height: 300px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+.featured-item-left {
+	width: 40%;
+	overflow: hidden;
+}
+.featured-item-left img{
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -16px;
+}
+.featured-item-right {
+	width: 60%;
+	padding: 25px;
+}
+.featured-item-right h4{
+	font-size: 25px;
+	font-family: 'Work Sans', sans-serif;
+}
+.featured-item-right p{
+	font-size: 15px;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/* Portfolio section  */
+
+.portfolio-item{}
+.portfolio-item a{
+	position: relative;
+	display: block;
+}
+.portfolio-item a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #0d6dfd4b;
+	opacity: 0;
+	visibility: hidden;
+	transition: .3s;
+}
+.portfolio-item:hover a::after{
+	opacity: 1;
+	visibility: visible;
+}
+/* App Plane style  */
+
+.app-title-section h3{
+	font-size: 90px;
+	font-weight: revert;
+	text-shadow: 0px 2px #0D6EFD;
+	color: #fff;
+}
+
+.app-plane{
+	background: #F8F9FF;
+}
+
+.pricing-item{
+	background-color: #ffffff;
+	padding: 50px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-item h3{
+	font-size: 50px;
+	font-weight: lighter;
+}
+.pricing-item ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+.pricing-item ul li{
+	margin: 20px 20px;
+    font-size: 15px;
+}
+.pricing-item ul li span{
+	color: #0D6EFD;
+	margin-right: 10px;
+	font-weight: bolder;
+}
+.app-pricing-button{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+
+
+.testimonial-item h4{
+	font-size: 44px;
+	font-weight: inherit;
+	text-transform: uppercase;
+}
+.testimonial-item span{
+	font-size: 5.5rem;
+	color: #cccccc;
+	opacity: 0.3;
+}
+
+.author-info{
+	width: 200px;
+	margin: auto;
+}
+.author-info img{
+	width: 70px;
+	margin-right: 25px;
+}
+.user-details{
+	text-align: left;
+	position: relative;
+	top: 6px;
+}
+.user-details h5{
+	font-size: 1rem;
+	line-height: normal;
+	font-weight: bolder;
+}
+.user-details p{
+
+}
+
+
+.abt-top{
+	background: #F8F9FF;
+	padding-top: 150px;
+}
+h4.abt-title {
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.abt-item{
+	margin-top: 100px;
+}
+.abt-item .card img{
+	width: 135px;
+	margin-top: -70px;
+	margin-left: 27px;
+}
+.card-body h4{
+	font-size: 25px;
+	font-weight: normal;
+}
+.card-body p{
+	padding: 20px 0;
+	color: #A4A4A6;
+}
+
+.abt-item .card-body{
+	padding: 30px;
+} 
+
+.ftr-sec{
+	background: #0A84FF;
+	margin-top: 50px;
+}
+.ftr-sec p{
+	padding: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 0px 2px #0b0a29;
+}
+
+.app-btn-sec{
+	margin-top: 100px;
+}
+
+.app-str-btn-sec a{
+	padding: 5px 50px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+.app-str-btn-sec a span{
+	font-size: 26px;
+	margin-right: 10px;
+}
+.navbar-nav li a{
+	font-size: 1.2rem;
+	font-family: 'Work Sans', sans-serif;
+}
+a.nav-bat{
+	padding: 5px 50px;
+	line-height: 2;
+	text-transform: uppercase;
+}
+.cnt-div h4{
+	text-transform: uppercase;
+	font-family: 'Work Sans', sans-serif;
+	text-shadow: 0px 2px #0D6EFD;
+	color: #fff;
+}
+.frm-sec > input{
+	padding: 20px;
+}
+.frm-sec textarea{
+	border: none;
+	border-bottom: 2px solid #0d6efd;
+}
+input[type=text], input[type=email], textarea {
+	border: none;
+	border-bottom: 2px solid #0d6efd;
+	padding: 20px;
+}
+
